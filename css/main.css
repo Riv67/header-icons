@@ -19,10 +19,8 @@ img {
   justify-content: space-between;
   padding: 0;
   background-color: #d05c2e;
-  border-top: 3px solid #a63f38;
   color: #fff;
   align-items: center;
-  padding: 0;
 }
 
 h1 {
@@ -30,6 +28,8 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   padding: .5em 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 div {
@@ -37,16 +37,31 @@ div {
   width: 40px;
 }
 
-.links ul {
-  padding: .4 0;
+ul {
   list-style-type: none;
+  display: flex;
 }
 
 .links a {
   color: #fff;
   font-family: "Merriweather", serif;
   font-size: 1.125rem;
-  font-weight: regular;
-  display: flex;
+  font-weight: normal;
   line-height: 1.5;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+a:hover {
+  color: #a63f38;
+}
+
+.links li {
+  width: 33.3333%;
+  padding: .5em 0;
+  text-align: center;
+  border-width: thin;
+  border-color: #a63f38;
+  border-style: solid;
 }
