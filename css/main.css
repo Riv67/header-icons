@@ -24,6 +24,7 @@ img {
   color: #fff;
   font-size: 2rem;
   font-family: "Merriweather", serif;
+  align-items: center;
 }
 
 .links {
@@ -32,5 +33,4 @@ img {
   line-height: 1.5;
   color: #fff;
   font-family: "Merriweather", serif;
-  list-style-type: none;
 }
