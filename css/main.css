@@ -16,7 +16,6 @@ img {
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   padding: 0;
   background-color: #d05c2e;
@@ -25,6 +24,10 @@ img {
   font-size: 2rem;
   font-family: "Merriweather", serif;
   align-items: center;
+}
+
+div {
+  display: flex;
 }
 
 .links {
