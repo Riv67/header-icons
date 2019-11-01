@@ -21,9 +21,16 @@ img {
   padding: 0;
   background-color: #d05c2e;
   border-top: 3px solid #a63f38;
-
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Merriweather", serif;
 }
 
-.header ul {
+.links {
+  list-style-type: none;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Merriweather", serif;
   list-style-type: none;
 }
