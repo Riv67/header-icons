@@ -24,7 +24,7 @@ img {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   font-weight: bold;
   font-size: 2rem;
   padding: .5em 0;
@@ -44,7 +44,7 @@ ul {
 
 .links a {
   color: #fff;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
