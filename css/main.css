@@ -11,22 +11,18 @@ body {
 }
 
 img {
-  display: flex;
   width: 40px;
 }
 
 .header {
-  justify-content: space-between;
-  padding: 0;
   background-color: #d05c2e;
-  color: #fff;
-  align-items: center;
 }
 
 h1 {
   font-family: Merriweather, serif;
   font-weight: bold;
   font-size: 2rem;
+  color: #fff;
   padding: .5em 0;
   padding-bottom: 0;
   margin: 0;
@@ -34,7 +30,9 @@ h1 {
 
 div {
   display: flex;
-  width: 40px;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
 }
 
 ul {
@@ -54,7 +52,8 @@ ul {
 }
 
 a:hover {
-  color: #a63f38;
+  background-color: #a63f38;
+  padding: .5em, 2.5em;
 }
 
 .links li {
