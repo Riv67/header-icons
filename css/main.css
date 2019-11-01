@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  display: block;
+  display: flex;
   width: 40px;
 }
 
@@ -25,29 +25,28 @@ img {
   padding: 0;
 }
 
-div {
-  display: flex;
-  padding: 0;
-  width: 40px;
-}
-
 h1 {
   font-family: "Merriweather", serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 2rem;
   padding: .5em 0;
 }
 
-ul > li {
-  list-style-type: none;
+div {
   display: flex;
-  line-height: 1.5;
-  padding: .4em 0;
+  width: 40px;
+}
+
+.links ul {
+  padding: .4 0;
+  list-style-type: none;
 }
 
 .links a {
   color: #fff;
   font-family: "Merriweather", serif;
   font-size: 1.125rem;
-  font-style: regular;
+  font-weight: regular;
+  display: flex;
+  line-height: 1.5;
 }
